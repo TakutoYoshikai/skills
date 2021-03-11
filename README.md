@@ -12,7 +12,7 @@ const yourName = "Takuto Yoshikai";
 ```javascript
 //change here to your skills.
 module.exports = [
-  skill("HTML / CSS", 2011, 11), //started HTML and CSS November 2011.
+  skill("HTML / CSS", 2011, 11), //started HTML and CSS in November 2011.
 ];
 ```
 
