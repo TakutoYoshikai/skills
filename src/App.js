@@ -10,7 +10,8 @@ function App() {
       <h2 className="name">{ yourName }'s Skills</h2>
       <div className="skills">
         <table className="skill-table">
-          { skills.map((skill) => {
+          {
+            skills.map((skill) => {
               return (
                 <tr>
                   <td className="skill-name">{ skill.name }</td>
