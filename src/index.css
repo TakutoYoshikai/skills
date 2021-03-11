@@ -1,18 +1,42 @@
+* {
+  font-family: 'Dosis', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", cursive;
+  font-weight: normal;
+  letter-spacing: 3px;
+  color: #232323;
+}
+a {
+  text-decoration: none;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f8f8;
+  padding-bottom: 130px;
+}
+.name {
+  font-family: 'Dosis', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", cursive;
+  font-weight: normal;
+  color: #222222;
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 6px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.skills {
+  margin-top: 130px;
 }
-
-table {
+.skill-table {
+  width: 320px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.skill-name {
+  text-align: center;
+  width: 160px;
+}
+.skill-diff {
+  text-align: left;
+  width: 160px;
 }
