@@ -1,5 +1,5 @@
 # skills
-This is a template of summary of creator's skills. It shows periods of skills.
+This is a template of summary of creator's skills. It shows periods of the skills.
 
 ### Usage
 **change name to yours in src/App.js**
