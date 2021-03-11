@@ -1,3 +1,21 @@
+# skills
+This is a template of summary of creator's skills. It shows periods of skills.
+
+### Usage
+**change name to yours in src/App.js**
+```javascript
+//change here to your name.
+const yourName = "Takuto Yoshikai";
+```
+
+**change skills to yours in src/skills.js**
+```javascript
+//change here to your skills.
+module.exports = [
+  skill("HTML / CSS", 2011, 11), //started HTML and CSS November 2011.
+];
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
