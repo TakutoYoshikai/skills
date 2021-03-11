@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import skills from "./skills";
+
+//change here to your name.
+const yourName = "Takuto Yoshikai";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 className="title">{ yourName }'s experiences</h2>
+      <div className="skills">
+        <table className="skill-table">
+          { skills.map((skill) => {
+              return (
+                <tr>
+                  <td>{ skill.name }</td>
+                  <td>{ skill.diff() }</td>
+                </tr>
+              );
+            })
+          }
+        </table>
+      </div>
     </div>
   );
 }
