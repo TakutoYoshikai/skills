@@ -16,7 +16,7 @@ module.exports = [
 ];
 ```
 
-**change homepage in package.json to your github pages URL if you use Github Pages**
+**change homepage in package.json to your Github Pages URL if you use Github Pages**
 ```
 "homepage": "https://takutoyoshikai.github.io/skills", //change here
 ```
