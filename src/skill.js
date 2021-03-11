@@ -2,7 +2,7 @@ module.exports = function(name, year, month) {
   const now = new Date();
   const date = new Date(year, month - 1);
   const currentMonths = now.getFullYear() * 12 + now.getMonth();
-  const dateMonths = date.getFullYear() * 12 + now.getMonth();
+  const dateMonths = date.getFullYear() * 12 + date.getMonth();
   const diff = currentMonths - dateMonths;
   return {
     name: name,
