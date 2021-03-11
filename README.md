@@ -16,8 +16,10 @@ module.exports = [
 ];
 ```
 
-**change homepage to your github pages URL if you use github pages**
-
+**change homepage in package.json to your github pages URL if you use github pages**
+```
+"homepage": "https://takutoyoshikai.github.io/skills", //change here
+```
 
 # Getting Started with Create React App
 
