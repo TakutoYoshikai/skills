@@ -7,7 +7,7 @@ const yourName = "Takuto Yoshikai";
 function App() {
   return (
     <div className="App">
-      <h2 className="name">{ yourName }'s skills</h2>
+      <h2 className="name">{ yourName }'s Skills</h2>
       <div className="skills">
         <table className="skill-table">
           { skills.map((skill) => {
