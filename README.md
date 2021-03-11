@@ -16,6 +16,9 @@ module.exports = [
 ];
 ```
 
+**change homepage to your github pages URL if you use github pages**
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
